@@ -1,6 +1,6 @@
 # 日記作成アシスタント (DiaryAssistant)
 
-![メイン画面のスクリーンショット](screenshots/main_screen.png)
+![main_screen](https://github.com/user-attachments/assets/9620a7b6-6346-40b2-8699-a4d3da4a3fe2)
 
 毎日の振り返りをサポートする、超軽量デスクトップアシスタントアプリです。
 
@@ -12,6 +12,7 @@
 ## 特徴
 
 - **超軽量**: WPFアプリケーションのため、メモリ使用量はわずか20MB程度
+![taskmanager](https://github.com/user-attachments/assets/0178def7-8f57-4a33-a24b-981cf1b61739)
 - **豊かな表情**: 会話の内容に応じてアシスタントの表情アイコンが変化
 - **プライバシー**: ローカルLLM(Ollama)対応で、オフラインでの利用も可能
 - **カスタマイズ**: アシスタントの性格や見た目、通知頻度など様々な設定が可能
@@ -24,7 +25,8 @@
 
 初回起動時に、Gemini APIキーの設定画面が表示されます。
 
-![APIキー設定画面](screenshots/api_key_setup.png)
+![api_key_setup](https://github.com/user-attachments/assets/b64ae501-2f5b-4205-9d2d-a2c12ceae53b)
+
 
 ### Gemini APIキーの取得方法（簡易版）
 
@@ -39,16 +41,23 @@
 
 起動すると、Windowsのタスクトレイに常駐します。設定された時間間隔で通知が表示され、アシスタントとの会話ができます。
 
-![通知画面の例](screenshots/notification.png)
+![notification](https://github.com/user-attachments/assets/38169e8b-74a0-40b6-9c27-6a44a742366f)
+
+アシスタントは、アクティブウィンドウに関連した雑談もできます。（デフォルトではオフ）
+
+![active](https://github.com/user-attachments/assets/e3e0dc73-74ae-4306-9427-b357392b906e)
 
 ### 基本操作
 
 - **タスクトレイアイコン**を右クリックすると操作メニューが表示されます
-  ![タスクトレイメニュー](screenshots/tray_menu.png)
+![tray_menu](https://github.com/user-attachments/assets/2ee676f1-152d-46c4-8027-bdbb2989ec53)
 - **今すぐ通知**: アシスタントとすぐに会話を始めたいときに
 - **日記閲覧**: 過去の会話や記録を閲覧・編集できます
-  ![日記閲覧画面](screenshots/diary_browser.png)
+![chat](https://github.com/user-attachments/assets/d311a6cc-ae47-4ac4-977c-03c3194e03f9)
+![list](https://github.com/user-attachments/assets/5eccaf30-cf37-408e-a555-ed47bc75c343)  
 - **通知の一時停止/再開**: 作業に集中したいときに便利
+- **アシスタントの変更**: アシスタントの性格を変更できます
+![selene](https://github.com/user-attachments/assets/d74330d2-c8bf-469f-97d8-9dc36686dbd5)
 
 ## データとプライバシーについて
 
@@ -68,6 +77,7 @@
 ## ローカルLLM対応（Ollama）
 
 GeminiのAPIキーがなくても、Ollamaでローカル環境のLLMを使用することができます。詳細は[Ollamaの設定（準備中）](https://github.com/)を参照してください。
+![ollama](https://github.com/user-attachments/assets/bc7d2dbf-52a3-4282-9b3e-0d23d7d95f07)
 
 ## 開発者向け情報
 
